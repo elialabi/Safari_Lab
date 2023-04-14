@@ -3,6 +3,17 @@ DROP TABLE animals;
 DROP TABLE enclosures;
 DROP TABLE employees;
 
+-- CREATE TABLE staff(
+--     id SERIAL PRIMARY KEY,
+--     name VARCHAR(255),
+--     employeeNumb
+-- §
+-- )
+
+
+
+
+
 CREATE TABLE employees (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255),
@@ -70,3 +81,6 @@ INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 2, 'Wednesda
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (1, 1, 'Monday');
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (2, 4, 'Friday');
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 3, 'Saturday');
+
+
+-- The names of the animals in a given enclosure
